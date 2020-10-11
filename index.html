@@ -25,6 +25,46 @@
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body id="top">
+    <!-- Modal 1 -->
+    <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title" id="ModalLongTitle">Modal title</h5> 
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 1 end-->
+    <!-- Modal 2-->
+    <div class="modal fade" id="ModalCenter2" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title" id="ModalLongTitle2">Сахар</h5> 
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 end-->
     <section class="hero">
         <section class="navigation">
             <header>
@@ -63,31 +103,15 @@
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
                         <h3>Grosenergy "Углеводно-белковый"</h3>
-                        <p>Grosenergy  «Углеводно-белковый» – это высокоэнергетический углеводно-протеиновый концентрат. Представляет собой сыпучую массу от светлого до темно-коричневого цвета с привлекательным для животных запахом.
-                            Grosenergy  «Углеводно-белковый»  предназначен для обогащения рациона крупного рогатого скота, коз и овец биодоступными легко ферментируемыми углеводами и быстро усвояемым протеином.
+                        <p>Grosenergy  «Углеводно-белковый» – это высокоэнергетический углеводно-протеиновый концентрат. Представляет собой сыпучую массу от светлого до темно-коричневого цвета с привлекательным для животных запахом.</p>
+                        <p>Grosenergy  «Углеводно-белковый»  предназначен для обогащения рациона крупного рогатого скота, коз и овец биодоступными легко ферментируемыми углеводами и быстро усвояемым протеином.
                             </p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#exampleModalCenter">
+                        <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#ModalCenter">
                         Подробнее
                         </button>
   
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                            <div class="modal-body">
-                              ...
-                            </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -108,7 +132,10 @@
                         <p>Easily change/switch/swap every placeholder inside every image on Sedna with the included Sketch files. You’ll have this template customised to suit your business in no time! </p>
                         <p>Nam vehicula malesuada lectus, interdum fringilla nibh. Duis aliquam vitae metus a pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Proin condimentum et leo quis fringilla.
                         </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">Подробнее</a>
+                          <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-small" data-toggle="modal" data-target="#ModalCenter2">
+                        Подробнее
+                        </button>
                     </div>
                 </div>
             </div>
@@ -300,7 +327,6 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/jquery.modal.js"></script>
     <script src="bower_components/classie/classie.js"></script>
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
