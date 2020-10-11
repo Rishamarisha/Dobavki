@@ -51,10 +51,12 @@ h5 {
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.btn:active {
   color: #fff;
   border-color: #14A197;
   background-color: #14A197;
+  outline: 0 !important;
 }
 
 .btn-white {
@@ -598,12 +600,9 @@ Features-stack
 ========================================================================== */
 .features {
   position: relative;
-  height: 800px;
+  height: 670px;
 }
-.features p {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
+
 .features h3 {
   margin: 0 0 20px 0;
 }
