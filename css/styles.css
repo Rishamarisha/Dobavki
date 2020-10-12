@@ -157,6 +157,7 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  line-height: 1.7;
 }
 
 ul li {
@@ -689,7 +690,7 @@ Features-stack
   width: 916px;
   height: 540px;
   background: url("../img/1000.jpg") no-repeat center center;
-  top: 114px;
+  top: 11px;
   z-index: 4;
   left: 50%;
 }
@@ -960,6 +961,7 @@ To top
   position: relative;
 }
 
+
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -1051,4 +1053,8 @@ footer .footer-links {
 }*/
 footer .company-info ul {
   color: white;
+}
+/* Отступы в модальном окне по тексту*/
+.modal-body {
+  margin: 3%;
 }
